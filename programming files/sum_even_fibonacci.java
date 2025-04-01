@@ -1,6 +1,6 @@
 public class sum_even_fibonacci {
     public static void main(String[] args) {
-        int a = 0, b = 1; //a is first in fibanachi sequence b is second in fibonachi sequence
+        string a = "0", b = "1"; //a is first in fibanachi sequence b is second in fibonachi sequence
         int sumEven = 0;
         while (b < 4000000) { 
             if (b % 2 == 0) { //checks if b is even and if so it adds it to even sum 

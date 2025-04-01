@@ -8,12 +8,11 @@ int main()
     // Calculate fib numbers 0 to 4000000
     while (b < 4000000) {
         if (b % 2 == 0) {
-            //added a bug here.
-            sum_even += 1;
+            sum_even ++;
         }
+        
         int temp = b;
-        //added another bug here
-        b = a - b;
+        b = a + b;
         a = temp;
     }
     std::cout << sum_even << std::endl;
